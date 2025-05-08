@@ -3,9 +3,11 @@ initialize a directory
 ```bash
 uv init mcp-client
 ```
-initialize a venv and set the api key in .env
+initialize a venv, initialize and set the api key in .env
 ```bash
 uv venv
+#for windows
+.venv\Scripts\activate
 ```
 install libraries
 ```bash
