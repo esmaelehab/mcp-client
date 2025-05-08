@@ -1,0 +1,14 @@
+[project]
+name = "mcp-client-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=1.13.0",
+    "mcp>=1.7.1",
+    "pillow>=11.2.1",
+    "python-dotenv>=1.1.0",
+]
+[tool.setuptools]
+py-modules = ["client_sse"]
